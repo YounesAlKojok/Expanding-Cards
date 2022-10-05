@@ -6,14 +6,13 @@
 
 body {
   font-family: "Muli", sans-serif;
-  display: flex; /*checkflex */
+  display: flex;
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   height: 100vh; /*viewport height*/
   overflow: hidden;
   margin: 0;
-  /* background-image: url("../asd.jpg"); */
 }
 
 .container {
@@ -25,7 +24,7 @@ body {
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh; /*vh viewport heigh*/
+  height: 90vh; /*vh viewport heigh*/
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
@@ -36,7 +35,7 @@ body {
 }
 
 .panel h3 {
-  font-size: 24px;
+  font-size: 30px;
   position: absolute;
   bottom: 20px;
   left: 20px;
